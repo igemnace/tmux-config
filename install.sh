@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-./scripts/tmux-config.sh
+./scripts/tmux-conf.sh
 ./scripts/tpm.sh
