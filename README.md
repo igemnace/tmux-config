@@ -14,9 +14,9 @@ Make sure that your machine satisfies the following:
 
 ## Installation
 
-Just run `install.sh`. This will automatically do the following:
-- Symlink `.tmux.conf` into your home directory (`tmux-conf.sh`)
-- Clone Tmux Plugin Manager into `~/.tmux/plugins/tpm` (`tpm.sh`)
+Just run `./install`. This will automatically do the following:
+- Symlink `.tmux.conf` into your home directory (`install-tmux-conf`)
+- Clone Tmux Plugin Manager into `~/.tmux/plugins/tpm` (`install-tpm`)
 
 Once you run Tmux, press `C-b I` to install the plugins from `.tmux.conf`.
 
