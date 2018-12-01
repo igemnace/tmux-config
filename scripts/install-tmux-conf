@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-ln -s "$dir/../cfg/.tmux.conf" "$HOME/.tmux.conf"
+cp -faTs "$PWD/cfg" "$HOME"
